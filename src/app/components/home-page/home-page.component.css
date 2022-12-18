@@ -1,7 +1,11 @@
-.body-page {
+.page {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    background-color: #CBCBCB;
+    height: auto;
+}
+
+.body-page {
+    width: 100%;
+    height: auto;
 }
