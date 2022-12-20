@@ -44,3 +44,6 @@
     flex-flow: row nowrap;
     height: 100%;
 }
+
+@media (max-width: 600px) {
+}
