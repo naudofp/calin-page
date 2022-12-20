@@ -18,11 +18,15 @@
 
 @media (max-width: 800px) {
     .container{
-        height: 350vh;
-
+        height: 280vh;
     }
 
-    .container-payment {
-        height: 15%;
-    }    
+    .container-step{
+        height: 80%;
+    }
+
+    .container-payment{
+        height: 20%;
+    }
+
 }

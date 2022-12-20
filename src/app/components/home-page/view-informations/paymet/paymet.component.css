@@ -52,13 +52,14 @@
     }
 
     .container-title {
-        height: 10%;
-
-        margin: 10% 0;
+        text-align: center;
+        height: 35%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .container-title p:first-child {
-        font-size: 25px;
+        font-size: 30px;
         font-weight: 500;
     }
 
