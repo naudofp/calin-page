@@ -13,6 +13,7 @@ import { ViewInformationsComponent } from './components/home-page/view-informati
 import { PaymetComponent } from './components/home-page/view-informations/paymet/paymet.component';
 import { StepsComponent } from './components/home-page/view-informations/steps/steps.component';
 import { CardStepComponent } from './components/home-page/view-informations/steps/card-step/card-step.component';
+import { ViewFooterComponent } from './components/home-page/view-footer/view-footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CardStepComponent } from './components/home-page/view-informations/step
     ViewInformationsComponent,
     PaymetComponent,
     StepsComponent,
-    CardStepComponent
+    CardStepComponent,
+    ViewFooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,9 +1,34 @@
-.container-payment {
+.container-title{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15%;
+
     width: 100%;
-    height: 100%;
+    height: 30%;
+}
+
+.container-title p:first-child {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.container-title p:last-child {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.container-carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
 }
 
 
@@ -15,7 +40,7 @@
     align-items: center;
     gap: 2%;
 
-    overflow-x: auto;
+    overflow-x: hidden;
     flex-flow: row nowrap;
-    height: 40%;
+    height: 100%;
 }
