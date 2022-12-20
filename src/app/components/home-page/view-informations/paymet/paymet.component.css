@@ -46,4 +46,23 @@
 }
 
 @media (max-width: 800px) {
+
+    .container-carrossel {
+        height: 50%;
+    }
+
+    .container-title {
+        height: 10%;
+
+        margin: 10% 0;
+    }
+
+    .container-title p:first-child {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .container-title p:last-child {
+        font-size: 20px;
+    }
 }

@@ -19,7 +19,10 @@
 @media (max-width: 800px) {
     .container{
         height: 350vh;
+
     }
 
-    
+    .container-payment {
+        height: 15%;
+    }    
 }
