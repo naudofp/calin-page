@@ -39,7 +39,7 @@ img {
     width: 5%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     .container-footer {
         height: 70vh;

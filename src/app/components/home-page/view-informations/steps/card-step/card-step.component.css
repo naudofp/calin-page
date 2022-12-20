@@ -22,7 +22,7 @@ p {
     font-size: 26px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .card{
         width: 35vh;
         height: 25vh;
