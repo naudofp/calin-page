@@ -39,8 +39,8 @@
     text-align: center;
     align-items: center;
     gap: 2%;
-
-    overflow-x: hidden;
+    width: 100%;
+    overflow-x: scroll;
     flex-flow: row nowrap;
     height: 100%;
 }

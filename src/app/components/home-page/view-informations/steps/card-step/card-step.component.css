@@ -21,3 +21,20 @@ p {
     font-weight: 400;
     font-size: 26px;
 }
+
+@media (max-width: 600px) {
+    .card{
+        width: 35vh;
+        height: 25vh;
+        text-align: center;
+    }
+
+    .icon {
+        width: 83px;
+        height: 83px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
