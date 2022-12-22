@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navbar-item',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar-item.component.css']
 })
 export class NavbarItemComponent implements OnInit {
+
+  @Input()
+  text: String = "";
+
+  @Input()
+  icon: String = "";
 
   constructor() { }
 

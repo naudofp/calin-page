@@ -1,4 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +9,10 @@
 body {
     width: 100%;
     height: auto;
+}
+
+:root {
+    --background-blue: #03091C;
+    --primary-yellow: #C6AB23;
+    --font-white: #EFF1F3;
 }
