@@ -2,13 +2,12 @@ li {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: black;
+    color: var(--font-white);
 }
 
-div {
+img {
     width: 20px;
     height: 20px;
-    background-color: gray;
 }
 
 li:hover {
@@ -19,5 +18,5 @@ p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 100%;
+    font-size: 125%;
 }

@@ -39,3 +39,26 @@ h1 {
     font-weight: 400;
     font-size: 40px;
 }
+
+@media (max-width: 800px) {
+      
+    #container-principal {
+        justify-content: center;
+    }
+
+    #container-title {
+        height: 15%;
+        width: 90%;
+    }
+
+    #container-benefits {
+        height: auto;
+
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+}
