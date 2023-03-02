@@ -5,7 +5,7 @@ https://calin-page.web.app/
 
 ## What is Calin?
 
-The name Calin is a fictitious system that we created in order to develop a presentable landing page for the system.
+The name Calin is a fictitious system that we created to develop a landing page.
 
 ## Team
 
