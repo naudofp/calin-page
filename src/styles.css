@@ -16,3 +16,6 @@ body {
     --primary-yellow: #C6AB23;
     --font-white: #EFF1F3;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

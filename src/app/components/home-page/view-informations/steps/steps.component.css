@@ -41,10 +41,10 @@
 }
 
 .cards p{
+    color: var(--primary-yellow);
     display: flex;
     width: 75%;
     height: 15%;
-    
     justify-content: center;
     align-items: flex-end;
     font-family: 'Inter', sans-serif;
@@ -54,6 +54,7 @@
 }
 
 .cards div {
+    color: var(--primary-yellow);
     display: flex;
     width: 80%;
     height: 40%;

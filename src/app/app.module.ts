@@ -14,6 +14,8 @@ import { PaymetComponent } from './components/home-page/view-informations/paymet
 import { StepsComponent } from './components/home-page/view-informations/steps/steps.component';
 import { CardStepComponent } from './components/home-page/view-informations/steps/card-step/card-step.component';
 import { ViewFooterComponent } from './components/home-page/view-footer/view-footer.component';
+import { MatIconModule } from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { ViewFooterComponent } from './components/home-page/view-footer/view-foo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

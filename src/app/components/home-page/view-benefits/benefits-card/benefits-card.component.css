@@ -29,9 +29,11 @@ h1 {
     font-weight: 400;
     font-size: 40px;
     margin: 5%;
+    color: var(--font-white);
 }
 
 p {
+    color: var(--primary-yellow);
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
