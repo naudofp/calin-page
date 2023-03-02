@@ -59,7 +59,9 @@ h1 {
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 25px;
+        line-height: 27px;
+        padding-top: 25px;
         text-align: center;
     }
 }

@@ -74,12 +74,21 @@ button:last-of-type {
 
 @media (max-width: 800px) {
 
+    button {
+        visibility: hidden;
+    }
+
     .container-carrossel {
         height: 50%;
     }
 
+    .carrossel{
+        overflow-x: scroll;
+    }
+
     .container-title {
         text-align: center;
+        line-height: 25px;
         height: 35%;
         width: 80%;
         margin-left: 10%;
