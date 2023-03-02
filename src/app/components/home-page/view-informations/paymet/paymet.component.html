@@ -4,16 +4,24 @@
     <p>Frase de apoio ao título </p>
 </div>
 
+<button (click)="updateCarrosel(-250)">
+    <mat-icon>keyboard_arrow_left</mat-icon>
+</button>
+<button (click)="updateCarrosel(+250)">
+    <mat-icon>keyboard_arrow_right</mat-icon>
+</button>
+
 <div class="container-carrossel">
     <div class="carrossel">
-        <app-card-step></app-card-step>
-        <app-card-step></app-card-step>
-        <app-card-step></app-card-step>
-        <app-card-step></app-card-step>
-        <app-card-step></app-card-step>
-        <app-card-step></app-card-step>
-        <app-card-step></app-card-step>
-        <app-card-step></app-card-step>
-        <app-card-step></app-card-step>
+        <app-card-step [textCard]="'First Card'" class="carrossel-item"></app-card-step>
+        <app-card-step class="carrossel-item"></app-card-step>
+        <app-card-step class="carrossel-item"></app-card-step>
+        <app-card-step class="carrossel-item"></app-card-step>
+        <app-card-step class="carrossel-item"></app-card-step>
+        <app-card-step class="carrossel-item"></app-card-step>
+        <app-card-step class="carrossel-item"></app-card-step>
+        <app-card-step class="carrossel-item"></app-card-step>
+        <app-card-step [textCard]="'Last Card'" class="carrossel-item"></app-card-step>
     </div>
 </div>
+
